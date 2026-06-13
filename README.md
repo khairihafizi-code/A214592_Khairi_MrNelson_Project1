@@ -1,45 +1,39 @@
-# A214592_Khairi_MrNelson_Project1
-App Name
-VerifiNews
+# VerifiNews (Project 1)
 
-# SDG Theme
-SDG 16: Peace, Justice and Strong Institutions
+**SDG Theme:** SDG 16: Peace, Justice and Strong Institutions
 
-# Project Description
-VerifiNews is a mobile application designed to combat the spread of fake news by allowing users to fetch live verified news, save facts offline, and actively report suspicious viral claims using their device's camera and cloud database.
+## Project Description
+VerifiNews is a mobile application prototype designed to combat the spread of fake news and misinformation. It provides a platform for users to search for viral claims, check their verified status (Sahih/Palsu), and read factual information. This Project 1 build focuses on establishing a robust user interface, seamless multi-screen navigation, and efficient state management.
 
-# Problem Statement
-Citizens lack a reliable platform to not only verify viral claims but also actively report suspicious news with photo evidence directly to a community moderation queue. 
+## Problem Statement
+Citizens lack a centralized and reliable platform to quickly verify viral claims and actively report suspicious news directly to a community moderation queue.
 
-# Features
-Home Screen navigation menu
-Multi-screen workflow with at least 5 screens
-User input and data entry
-Shared data management using ViewModel
-Real-time UI updates using Compose State
-Item display across multiple screens
-Material Design user interface
-Navigation Compose integration
-# Technologies Used
-Kotlin
-Jetpack Compose
-Navigation Compose
-ViewModel
-Material Design
-Android Studio
-# Setup Instructions
-Clone the repository.
-Open the project in Android Studio.
-Sync Gradle dependencies.
-Build and run the application on an Android device or emulator.
-# Learning Outcomes
-I learned how to integrate Navigation and shared ViewModels to manage data across a 5-screen application. It also challenged me to design an intuitive UI that clearly displays 'Sahih' and 'Palsu' news statuses using custom badges.
+## Key Features
+* **Multi-Screen Workflow:** Seamless navigation across a 5-screen application architecture.
+* **Intuitive Navigation:** Includes a Home Screen navigation menu for easy access to different app sections.
+* **State Management:** Utilizes `ViewModel` for shared data management across different screens.
+* **Real-Time UI Updates:** Dynamic interface changes and user input handling using Jetpack Compose State.
+* **Modern UI/UX:** Built entirely with Material Design guidelines, featuring custom status badges for verified and fake news.
 
-# Developer
-Mohamad Khairi Hafizi bin Mohd Nazri
+## Technologies Used
+* **Language:** Kotlin
+* **UI Toolkit:** Jetpack Compose, Material Design
+* **Architecture:** ViewModel, Navigation Compose
+* **IDE:** Android Studio
 
-Matric Number: A214592
+## Setup Instructions
+1. **Clone** the repository to your local machine.
+2. **Open** the project in Android Studio.
+3. **Sync** Gradle dependencies when prompted.
+4. **Build and Run** the application on an Android Virtual Device (Emulator) or a physical Android device.
 
-Course: TK2323/TM2213 Mobile Programming / Mobile Application Programming
+## Learning Outcomes
+Building this project taught me how to integrate Navigation and shared ViewModels to successfully manage data across a 5-screen application. It also challenged me to design an intuitive, user-friendly UI that clearly communicates information, such as displaying 'Sahih' and 'Palsu' news statuses using custom UI badges.
 
-Instructor: Mr Nelson Sana
+---
+
+## Developer Information
+* **Developer:** Mohamad Khairi Hafizi bin Mohd Nazri
+* **Matric Number:** A214592
+* **Course:** TK2323 / TM2213 Mobile Programming / Mobile Application Programming
+* **Instructor:** Mr. Nelson Sana
